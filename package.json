@@ -1,17 +1,17 @@
 {
-    "name" : "redisTest",
-    "version" : "0.0.1",
-    "scripts" : {
-        "start" : "node server.js"
-    },
-    "dependencies" : {
-        "express" : "latest"
-    },
-    "repository" : {
-        "type" : "git",
-        "url" : "https://github.com/redisTest"
-    },
-    "description" : "test redis",
-    "license" : "BSD-3-Clause"
-    
+  "name": "redisTest",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "latest",
+    "redis": "^2.2.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/redisTest"
+  },
+  "description": "test redis",
+  "license": "BSD-3-Clause"
 }
